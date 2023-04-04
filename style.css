@@ -39,4 +39,64 @@ ul.right-bar li a {
     text-decoration: none;
     padding: 10px;
     font-size: 18px;
+    color: black;
+}
+
+/* navigation area end */
+
+.two-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para-section {
+    flex: 0 0 50%;
+}
+
+.para-section h1 {
+    font-size: 50px;
+    line-height: 65px;
+    margin-bottom: 20px;
+}
+
+.para-section p {
+    font-size: 16px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+
+.preebook-btn-wrapper {
+    background-color: #E02C6D;
+    padding: 12px 25px;
+    border-radius: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+.preebook-btn-wrapper a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.fa-arrow-right {
+    margin-left: 7px;
+}
+
+
+
+.image-section {
+    flex: 0 0 50%;
+}
+
+.image-section-wrapper {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-section-wrapper img {
+    width: 430px;
+    background-image: url("images/Circle design.svg");
 }
