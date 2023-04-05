@@ -1,0 +1,332 @@
+/* X-Large devices (large desktops, less than 1400px) */
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    .container {
+        width: 85%;
+        margin: auto;
+    }
+
+    /* text image section */
+}
+
+/* Large devices (desktops, less than 1200px) */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .para-section h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    /* text image section */
+
+
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 100%;
+        margin: auto;
+        padding: 0 20px;
+    }
+
+    .home-section {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+
+    }
+
+    ul.right-bar {
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        background: navajowhite;
+        padding: 20px;
+        width: 100%;
+        top: 60px;
+    }
+
+    ul.right-bar li {
+        padding: 12px;
+    }
+
+    .navigation {
+        padding: 20px 10px;
+    }
+
+    .product-name h2 {
+        font-size: 22px;
+    }
+
+    ul.right-bar li a {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .para-section {
+        padding: 20px 0;
+    }
+
+    .preebook-btn-wrapper {
+        padding: 10px 20px;
+    }
+
+    .preebook-btn-wrapper a {
+        font-size: 14px;
+    }
+
+    .para-section h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .image-section-wrapper {
+        padding: 0;
+    }
+
+    .image-section-wrapper img {
+        width: 230px;
+        background-size: cover;
+    }
+
+    /* text image section */
+
+    .logos-content-wrapper {
+        padding: 60px 0;
+    }
+
+    .all-logo {
+        padding: 20px 0;
+    }
+
+    .all-logo img {
+        padding: 0 20px;
+        width: 100%;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container {
+        width: 100%;
+        margin: auto;
+        padding: 0 20px;
+    }
+
+    .home-section {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+
+    }
+
+    ul.right-bar {
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        background: navajowhite;
+        padding: 20px;
+        width: 100%;
+        top: 60px;
+    }
+
+    ul.right-bar li {
+        padding: 12px;
+    }
+
+    .two-block {
+        flex-direction: column-reverse;
+    }
+
+    .navigation {
+        padding: 20px 10px;
+    }
+
+    .product-name h2 {
+        font-size: 22px;
+    }
+
+    ul.right-bar li a {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .para-section {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .preebook-btn-wrapper {
+        padding: 9px 17px;
+    }
+
+    .preebook-btn-wrapper a {
+        font-size: 14px;
+    }
+
+    .para-section h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .para-section p {
+        font-size: 14px;
+    }
+
+    .image-section-wrapper {
+        padding: 0;
+    }
+
+    .image-section-wrapper img {
+        width: 250px;
+        background-size: cover;
+    }
+
+    /* text image section */
+
+    .logos-content-wrapper {
+        padding: 60px 0;
+    }
+
+    .all-logo {
+        padding: 20px 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .all-logo img {
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    hr {
+        display: none;
+    }
+
+
+
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+
+@media only screen and (max-width: 575px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* nav bar */
+
+    .home-section {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+
+    }
+
+    ul.right-bar {
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        background: navajowhite;
+        padding: 20px;
+        width: 100%;
+        top: 60px;
+    }
+
+    ul.right-bar li {
+        padding: 12px;
+    }
+
+    /* nav bar */
+
+    .two-block {
+        flex-direction: column-reverse;
+    }
+
+    .navigation {
+        padding: 20px 10px;
+    }
+
+    .product-name h2 {
+        font-size: 22px;
+    }
+
+    ul.right-bar li a {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .para-section {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .preebook-btn-wrapper {
+        padding: 7px 15px;
+    }
+
+    .preebook-btn-wrapper a {
+        font-size: 14px;
+    }
+
+    .para-section h1 {
+        font-size: 22px;
+        line-height: 30px;
+        /* text-align: center; */
+    }
+
+    .para-section p {
+        font-size: 14px;
+        /* text-align: center; */
+    }
+
+    .image-section-wrapper {
+        padding: 0;
+    }
+
+    .image-section-wrapper img {
+        width: 250px;
+        background-size: cover;
+    }
+
+    /* text image section */
+
+    .logos-content-wrapper {
+        padding: 60px 0;
+    }
+
+    .all-logo {
+        padding: 20px 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .all-logo img {
+        padding: 0 20px;
+        width: 90%;
+    }
+
+    hr {
+        display: none;
+    }
+
+
+
+}

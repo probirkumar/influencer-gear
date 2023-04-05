@@ -15,6 +15,28 @@ body {
     margin: auto;
 }
 
+/* Mobile Menu */
+.mobile-menu {
+    display: none;
+
+}
+
+.mobile-menu a span {
+    display: block;
+    height: 3px;
+    width: 18px;
+    background: black;
+    margin-bottom: 3px;
+}
+
+.product-name {
+    flex: 0 0 50%;
+}
+
+.home-section {
+    flex: 0 0 50%;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -28,11 +50,11 @@ body {
 
 .right-bar {
     display: flex;
+    justify-content: space-between;
 }
 
 ul.right-bar li {
     list-style: none;
-    padding: 15px;
 }
 
 ul.right-bar li a {
@@ -62,7 +84,6 @@ ul.right-bar li a {
 
 .para-section p {
     font-size: 16px;
-    padding-right: 30px;
     margin-bottom: 20px;
 }
 

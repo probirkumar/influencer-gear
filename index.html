@@ -6,10 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influencer Gear</title>
+
     <!-- fontawesome icon -->
     <script src="https://kit.fontawesome.com/73c4f10806.js" crossorigin="anonymous"></script>
     <!-- stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
@@ -18,19 +21,27 @@
             <div class="container">
                 <div class="nav-bar-content-wrapper">
                     <div class="navigation">
+
                         <div class="product-name">
                             <h2>Influencer products</h2>
                         </div>
-                        <div class="home-section">
+                        <div id="toggle-nav" class="home-section">
                             <ul class="right-bar">
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="index.html">Products</a></li>
                                 <li><a href="index.html">Sing Up</a></li>
                                 <li><a href="index.html">Log In</a></li>
                                 <li><a href="index.html"><i class="fa-solid fa-magnifying-glass"></i></a>
-                                <li><a href="index.html"><i class="fa-solid fa-bars"></i></a></li>
+                                <li><a href="index.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
                                 </li>
                             </ul>
+                        </div>
+                        <div class="mobile-menu">
+                            <a onclick="menuShowHide()" href="#!">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -91,7 +102,7 @@
 
     <!-- logos area end -->
 
-    <section id="popular">
+    <!-- <section id="popular">
         <div class="popular-wrapper">
             <div class="popular-container">
                 <div class="popular-content-wrapper">
@@ -260,11 +271,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- popular section end -->
 
-    <section id="future-product">
+    <!-- <section id="future-product">
         <div class="future-product-wrapper">
             <div class="container">
                 <div class="future-product-content-wrapper">
@@ -290,11 +301,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- future product end -->
 
-    <footer>
+    <!-- <footer>
         <div class="footer-area">
             <div class="footer-area-wrapper">
                 <h2>Influencer products</h2>
@@ -308,7 +319,9 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
+
+    <script src="script.js"> </script>
 
 </body>
 
