@@ -21,7 +21,7 @@ body {
 
 }
 
-.mobile-menu a span {
+.mobile-menu span {
     display: block;
     height: 3px;
     width: 18px;
@@ -34,7 +34,26 @@ body {
 }
 
 .home-section {
-    flex: 0 0 50%;
+    flex: 0 0 40%;
+}
+
+.search-cart-wrapper {
+    flex: 0 0 10%;
+}
+
+.search-cart {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+ul.search-cart li {
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+ul.search-cart li a i {
+    color: black;
 }
 
 .navigation {
