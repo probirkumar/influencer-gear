@@ -159,6 +159,7 @@ ul.right-bar li a {
 
 .all-logo img {
     padding: 0 20px;
+    width: 100%;
 }
 
 hr {
@@ -169,7 +170,7 @@ hr {
 /* logo area end */
 
 .popular-container {
-    width: 75%;
+    width: 85%;
     margin: auto;
 }
 

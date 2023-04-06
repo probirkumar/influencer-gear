@@ -28,6 +28,12 @@
 
     /* text image section */
 
+    .popular-container {
+        width: 90%;
+    }
+
+    /* popular section end */
+
 
 
 }
@@ -119,14 +125,81 @@
     }
 
     .all-logo {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-wrap: wrap;
     }
 
     .all-logo img {
-        padding: 0 20px;
-        width: 80%;
+        padding: 20px;
+    }
+
+    /* logos area end */
+
+    .popular-container {
+        width: 90%;
+    }
+
+    .image-collection {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .single-image img {
+        margin-bottom: 10px;
+    }
+
+    .single-image h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .single-image h3 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .icon {
+        font-size: 13px;
+    }
+
+    span p {
+        font-size: 15px;
+    }
+
+    .bottom-para {
+        font-size: 15px;
+    }
+
+    /* popular section end */
+
+
+    .future-product-content-wrapper {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .img-area {
+        text-align: center;
+    }
+
+    .img-area-wrapper {
+        padding: 0;
+    }
+
+    .text-area {
+        padding: 0;
+        text-align: center;
+    }
+
+    .text-area {
+        padding: 0 100px;
+        text-align: center;
+    }
+
+    .text-area-wrapper p {
+        padding-right: 0;
     }
 
 }
@@ -228,18 +301,89 @@
     }
 
     .all-logo {
-        padding: 20px 0;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-wrap: wrap;
     }
 
     .all-logo img {
-        padding: 0 20px;
+        padding: 20px;
         width: 100%;
     }
 
     hr {
         display: none;
+    }
+
+    /* logos area end */
+
+    .popular-container {
+        width: 90%;
+    }
+
+    .image-collection {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .single-image img {
+        margin-bottom: 10px;
+    }
+
+    .single-image h1 {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    .single-image h3 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .icon {
+        font-size: 13px;
+    }
+
+    span p {
+        font-size: 15px;
+    }
+
+    .bottom-para {
+        font-size: 15px;
+    }
+
+    /* popular section end */
+
+    .future-product-content-wrapper {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .img-area {
+        text-align: center;
+    }
+
+    .img-area-wrapper {
+        padding: 0;
+    }
+
+    .img-area-wrapper img {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .text-area {
+        padding: 0;
+        text-align: center;
+    }
+
+    .text-area-wrapper h1 {
+        font-size: 28px;
+    }
+
+    .text-area-wrapper p {
+        padding-right: 0;
     }
 
 
@@ -347,19 +491,91 @@
     }
 
     .all-logo {
-        padding: 20px 0;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-wrap: wrap;
     }
 
     .all-logo img {
-        padding: 0 20px;
-        width: 90%;
+        padding: 20px;
+        width: 100%;
     }
 
     hr {
         display: none;
     }
+
+    /* logos area end */
+
+    .popular-container {
+        width: 90%;
+    }
+
+    .image-collection {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .single-image img {
+        margin-bottom: 10px;
+    }
+
+    .single-image h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .single-image h3 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .icon {
+        font-size: 13px;
+    }
+
+    span p {
+        font-size: 15px;
+    }
+
+    .bottom-para {
+        font-size: 15px;
+    }
+
+    /* popular section end */
+
+    .future-product-content-wrapper {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .img-area {
+        text-align: center;
+    }
+
+    .img-area-wrapper {
+        padding: 0;
+    }
+
+    .img-area-wrapper img {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .text-area {
+        padding: 0;
+        text-align: center;
+    }
+
+    .text-area-wrapper h1 {
+        font-size: 28px;
+    }
+
+    .text-area-wrapper p {
+        padding-right: 0;
+    }
+
 
 
 
